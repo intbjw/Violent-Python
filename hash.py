@@ -11,5 +11,5 @@ def md5(s):
 if __name__ == '__main__':
 
     for i in range(1, 999999):  # 范围
-        if md5(str(i)).startswith('f8b98f'):  # 待爆破的字符串
+        if md5(str(i)).startswith('cc485b'):  # 待爆破的字符串
             print(i)
